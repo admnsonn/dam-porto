@@ -1,9 +1,8 @@
 <template>
-	<main class="navbar dark:from-slate-900 dark:to-slate-900">
+	<main class="navbar dark:from-[#18181b] dark:to-[#18181b]">
 		<section class="navbar-brand">
 			<div class="flex items-center gap-3">
-				<img src="/icons/icon-384x384.png" width="40" class="rounded-full" />
-				<h1 class="text-indigo-700 dark:text-indigo-400 text-xl font-semibold lg:text-3xl">OR ABDILLH</h1>
+				<h1 class="text-[#075985] dark:text-[#38bdf8] text-xl font-semibold lg:text-3xl">Damnnson</h1>
 			</div>
 			<button @click="showMenu = true" class="active:scale-90 duration-300 md:hidden" type="button">
 				<i class="fa fa-bars text-indigo-700 dark:text-indigo-500 text-2xl"></i>
@@ -14,21 +13,21 @@
 			<ul class="navbar-list">
 				<span @click="showMenu = false" class=" md:hidden"><i class="fa fa-times text-gray-50"></i></span>
 				<template v-for="(menu, x) in menus" :key="x">
-					<li class="text-gray-100 md:text-indigo-600 dark:md:text-indigo-400 font-medium duration-300 active:scale-[.85]">
+					<li class="text-gray-100 md:text-[#075985] dark:md:text-[#38bdf8] font-medium duration-300 active:scale-[.85]">
 						<a @click="changeMenu(menu)">{{ menu.name }}</a>
 					</li>
 				</template>
 				<!-- Dark mode -->
 				<dark-mode-toggler></dark-mode-toggler>
 				<li class="md:hidden w-full bg-green-500 dark:md:bg-green-600 mt-5 text-gray-100 text-center py-2 px-4 rounded-lg">
-					<a href="https://wa.me/6285654036810">
+					<a href="https://wa.me/6282128689209">
 						<i class="fab fa-whatsapp"></i>
 						Chat Me
 					</a>
 				</li>
 			</ul>
 			<section class="hidden md:block bg-green-500 text-gray-100 text-center p-2 md:px-4 rounded-lg">
-				<a href="https://wa.me/6285654036810">
+				<a href="https://wa.me/6282128689209">
 					<i class="fab fa-whatsapp"></i>
 					Chat me
 				</a>
