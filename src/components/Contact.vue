@@ -6,7 +6,7 @@
 
 </style>
 <template>
-	<section id="contact" class="py-8 bg-gradient-to-b from-gray-50 to-indigo-50 px-8 md:px-20 dark:from-slate-900 dark:to-slate-900">
+	<section id="contact" class="py-8 bg-gradient-to-b from-gray-50 to-indigo-50 px-8 md:px-20 dark:from-[#18181b] dark:to-[#18181b]">
 		<h1 data-aos="fade-up" class="mb-8 text-3xl text-center text-indigo-700 font-bold dark:text-indigo-500">Contact</h1>
 		<p data-aos="fade-up" class="md:text-center md:mx-auto dark:text-gray-300">
 			contact me if there is a job you want to offer or just ask about me

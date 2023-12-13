@@ -1,5 +1,5 @@
 <template>
-	<section id="projects" class="py-8 bg-gradient-to-b from-indigo-50 to-gray-50 px-8 md:px-20 dark:from-slate-900 dark:to-slate-900">
+	<section id="projects" class="py-8 bg-gradient-to-b from-indigo-50 to-gray-50 px-8 md:px-20 dark:from-[#18181b] dark:to-[#18181b]">
 		<h1 data-aos="fade-up" class="mb-8 text-3xl font-bold text-center text-indigo-700 dark:text-indigo-500">
 			Projects
 		</h1>
