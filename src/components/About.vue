@@ -1,15 +1,15 @@
 <template>
 	<section id="about"
 		class="py-8 bg-gradient-to-b from-gray-50 to-indigo-50 px-8 md:px-20 dark:from-[#18181b] dark:to-[#18181b] dark:text-gray-300">
-		<h1 data-aos="fade-up" class="mb-8 text-3xl text-center text-indigo-700 font-bold dark:text-[#38bdf8]">About Me</h1>
+		<h1 data-aos="fade-up" class="mb-8 text-3xl text-center text-indigo-700 font-bold dark:text-[#9ca3af]">About Me</h1>
 		<p data-aos="fade-up" class="md:text-center md:mx-auto">
-			Hi, My nama is Muhammad Adam Firdaus, from Sumedang, West Java Province, Indonesia. <br>
+			Hi, My name is Muhammad Adam Firdaus, from Sumedang, West Java Province, Indonesia. <br>
 			I am a UI/UX Designer and Front-End Enthusiast.
 		</p>
 
 		<section class="mt-6 w-full justify-between flex flex-wrap lg:justify-center  gap-6 md:mt-10 gap-6">
 			<div class="md:w-5/12 ">
-				<h2 data-aos="zoom-in" class="mb-5 font-medium md:text-center text-indigo-700 text-xl dark:text-[#38bdf8]">
+				<h2 data-aos="zoom-in" class="mb-5 font-medium md:text-center text-indigo-700 text-xl dark:text-[#9ca3af]">
 					Educations</h2>
 				<div>
 					<template v-for="(edu, x) in educations" :key="x">
@@ -28,7 +28,7 @@
 
 
 			<div class="md:w-5/12">
-				<h2 data-aos="zoom-in" class="mb-5 md:text-center font-medium text-indigo-700 text-xl dark:text-[#38bdf8]">
+				<h2 data-aos="zoom-in" class="mb-5 md:text-center font-medium text-indigo-700 text-xl dark:text-[#9ca3af]">
 					Skills</h2>
 				<ul>
 					<template v-for="(skil, x) in skils" :key="x">
@@ -40,7 +40,7 @@
 			</div>
 
 			<div class="md:w-5/12">
-				<h2 data-aos="zoom-in" class="mb-5 md:text-center font-medium text-indigo-700 text-xl dark:text-[#38bdf8]">
+				<h2 data-aos="zoom-in" class="mb-5 md:text-center font-medium text-indigo-700 text-xl dark:text-[#9ca3af]">
 					Experience</h2>
 				<div>
 					<template v-for="(exper, x) in expers" :key="x">
@@ -59,7 +59,7 @@
 
 			<div class="lg:w-5/12">
 				<h2 data-aos="zoom-in"
-					class="mb-5 md:text-center lg:mb-10 font-medium text-indigo-700 text-xl dark:text-indigo-500">Languages
+					class="mb-5 md:text-center lg:mb-10 font-medium text-indigo-700 text-xl dark:text-[#9ca3af]">Languages
 					& Tools</h2>
 				<ul class="flex flex-wrap justify-between md:justify-center gap-5 md:gap-8">
 					<template v-for="(tool, x) in tools" :key="x">
