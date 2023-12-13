@@ -9,7 +9,7 @@
 				See My CV
 			</a>		
 		</div>
-		<div class="animate__animated animate__zoomInDown md:w-5/12 mt-12 mb-6 bg-gradient-to-r from-indigo-200 dark:from-slate-800 to-sky-300 dark:to-slate-900 shadow rounded-full md:mb-0">
+		<div class="animate__animated animate__zoomInDown md:w-5/12 mt-12 mb-6 bg-gradient-to-r from-indigo-200 dark:from-[#0284c7] to-sky-300 dark:to-[#0c4a6e] shadow rounded-full md:mb-0">
 			<img class="rounded-full" src="/hero-2.png" />
 		</div>
 		<div class="w-full grid place-items-center py-5 md:py-10">
