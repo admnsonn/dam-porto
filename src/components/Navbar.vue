@@ -19,19 +19,7 @@
 				</template>
 				<!-- Dark mode -->
 				<dark-mode-toggler></dark-mode-toggler>
-				<li class="md:hidden w-full bg-green-500 dark:md:bg-green-600 mt-5 text-gray-100 text-center py-2 px-4 rounded-lg">
-					<a href="https://wa.me/6282128689209">
-						<i class="fab fa-whatsapp"></i>
-						Chat Me
-					</a>
-				</li>
 			</ul>
-			<section class="hidden md:block bg-green-500 text-gray-100 text-center p-2 md:px-4 rounded-lg">
-				<a href="https://wa.me/6282128689209">
-					<i class="fab fa-whatsapp"></i>
-					Chat me
-				</a>
-			</section>
 		</section>
 
 	</main>

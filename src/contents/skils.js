@@ -1,5 +1,5 @@
 export default [
-	'Able to design and build web-based applications using modern web technology',
-	'Able to implement UI design into real interface',
-	'Able to deploy applications to the production stage using modern services and tools'
+	'Able to conduct research with the methods used to users according to their needs',
+	'able to create prototype concepts, sketches to mockups in accordance with the design system',
+	'Able to implement design to website using responsive framework and library'
 ]

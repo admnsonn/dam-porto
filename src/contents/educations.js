@@ -1,14 +1,12 @@
 export default [
 	{
-		name: 'D3 Teknik Informatika - Politeknik Hasnur',
-		year: '2020 - Now'
+		job: 'S1 Software Engineering',
+		institusi: 'Telkom University',
+		tahun: '2019 - 2023'
 	},
 	{
-		name: 'SMA Negeri 1 Alalak IPA',
-		year: '2017 - 2020'
+		job: 'Natural Science',
+		institusi: 'SMA Negeri 1 Sumedang',
+		tahun: '2017 - 2019'
 	},
-	{
-		name: 'SMP Negeri 2 Alalak',
-		year: '2014 - 2017'
-	}
 ]
