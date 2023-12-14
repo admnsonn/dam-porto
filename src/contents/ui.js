@@ -6,8 +6,7 @@ export default [
 			'redesign-page', 'figma', 'user-research', 'prototype'
 		],
 		links: {
-			github: 'https://github.com/or-abdillh/car-information-app',
-			instagram: 'https://www.instagram.com/reel/CldlZGgMz5A/?utm_source=ig_web_copy_link'
+			figma: 'https://www.figma.com/file/bSNKxYYiQqgM7en3epVMDK/Baznas-v2?type=design&node-id=2%3A4&mode=design&t=W3y8HnzTZn16VYRZ-1',
 		}
 	},
 	{
@@ -17,8 +16,7 @@ export default [
 			'web-design', 'figma', 'user-research', 'high-fidelity'
 		],
 		links: {
-			github: 'https://github.com/or-abdillh',
-			instagram: 'https://www.instagram.com/p/Ci7qCRQvtiP/?utm_source=ig_web_copy_link'
+			figma: 'https://www.figma.com/file/YpdEhU7lSIGtWoFiIsstNC/Prototype?type=design&node-id=0%3A1&mode=design&t=Ev2mmaEbtqU78eAT-1'
 		}
 	},
 	{
@@ -28,8 +26,7 @@ export default [
 			'app-design', 'figma', 'user-research', 'high-fidelity'
 		],
 		links: {
-			github: 'https://github.com/or-abdillh/bechantant-project',
-			instagram: 'https://www.instagram.com/p/Cgl2B-9PF-4/?igshid=YmMyMTA2M2Y='
+			figma: 'https://www.figma.com/file/lIugINiCQS1hdFMCWeNbZi/Project-Prototype?type=design&node-id=0%3A1&mode=design&t=qqNLmMqrCHkDdZva-1'
 		}
 	},
        {
@@ -39,8 +36,7 @@ export default [
 			'web-design', 'figma', 'user-research', 'high-fidelity'
 		],
 		links: {
-			github: 'https://github.com/or-abdillh/echo-wallet.git',
-			instagram: 'https://www.instagram.com/p/CcrOiIfPJSV/?igshid=YmMyMTA2M2Y='
+			figma: 'https://www.figma.com/file/ZZp1LlniKv4Emt1AIu3U0k/APLIKASI-SMART-DESA?type=design&node-id=0%3A1&mode=design&t=uKvnasZDvlL6LyTZ-1'
 		}
 	},
 ]

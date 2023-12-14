@@ -19,7 +19,7 @@
 
 		<section data-aos="fade-up" class="text-indigo-700 flex justify-end text-xl gap-5">
 			<button @click="actionPage(false)"
-				:class="indicatorPage === 0 ? 'bg-indigo-50 px-3 text-indigo-300' : 'bg-indigo-200 px-5'"
+				:class="indicatorPage === 0 ? 'bg-indigo-50 px-3 text-indigo-200' : 'bg-indigo-800 px-5'"
 				class="active:scale-75 duration-300 rounded py-2 grid place-items-center">
 				<i class="fa fa-chevron-left"></i>
 			</button>

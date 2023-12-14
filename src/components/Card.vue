@@ -5,11 +5,8 @@
 			<div class="absolute rounded bg-slate-900 bg-opacity-25 opacity-0 backdrop-blur-sm hover:bg-opacity-75 hover:opacity-100 duration-300 inset-0 grid place-items-center">
 				<span class="text-xl flex flex-wrap justify-center">
 					<small class="text-slate-200 text-sm w-full text-center mb-1">See project on</small>
-					<a :href="props.content.links.github" class="mr-2 text-slate-200">
-						<i class="fab fa-github"></i>
-					</a>
-					<a :href="props.content.links.instagram">
-						<i class="fab fa-instagram text-pink-400"></i>
+					<a :href="props.content.links.figma" class="mr-2 text-slate-200">
+						<i class="fab fa-figma"></i>
 					</a>
 				</span>
 			</div>

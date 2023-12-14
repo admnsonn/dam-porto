@@ -18,9 +18,11 @@
 						<a @click="changeMenu(menu)">{{ menu.name }}</a>
 					</li>
 				</template>
-				<!-- Dark mode -->
-				<dark-mode-toggler></dark-mode-toggler>
 			</ul>
+			<!-- Dark mode -->
+			<div class="navbar-list">
+				<dark-mode-toggler></dark-mode-toggler>
+			</div>
 		</section>
 	</main>
 </template>
