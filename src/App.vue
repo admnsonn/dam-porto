@@ -4,7 +4,8 @@
 		<main class="mt-16">
 			<Landing ref="home" />
 			<About />
-			<Projects />
+			<Uiux />
+			<Frontend />
 			<Contact />
 			<Footer	/>
 		</main>
@@ -17,7 +18,8 @@ import { ref } from 'vue'
 import Landing from '@/components/Landing.vue'
 import About from '@/components/About.vue'
 import Navbar from '@/components/Navbar.vue'
-import Projects from '@/components/Projects.vue'
+import Uiux from '@/components/Uiux.vue'
+import Frontend from '@/components/Frontend.vue'
 import Contact from '@/components/Contact.vue'
 import Footer from '@/components/Footer.vue'
 

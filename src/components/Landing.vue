@@ -1,6 +1,6 @@
 <template>
 	<section id="home" class="w-full flex justify-between flex-wrap items-center pt-16 md:pt-24 px-8 md:px-24 py-6 lg:min-h-screen bg-gradient-to-l from-indigo-100 to-gray-100 dark:from-[#18181b] dark:to-[#18181b]">
-		<div class="dark:text-gray-300 animate__animated animate__zoomInDown  md:w-6/12 mb-16 md:mb-0">
+		<div class="dark:text-[#f8fafc] animate__animated animate__zoomInDown  md:w-6/12 mb-16 md:mb-0">
 			<h1 class="text-4xl lg:text-6xl font-semibold mb-5">Hi,<br/> My Name is <br><span class="text-indigo-700 dark:text-[#38bdf8]">M Adam Firdaus</span></h1>
 			<p class="text-base lg:text-lg mb-2"><strong>UI/UX Designer</strong> and <strong>Front-End Enthusiast</strong></p>
 			<p class="text-base lg:text-lg mb-5 lg:mb-10">The skills I have include <strong>Prototyping, Design System, <br> User Research, Vue JS, React.JS, HTML, </strong> and <strong>CSS</strong></p>

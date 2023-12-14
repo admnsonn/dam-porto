@@ -1,6 +1,6 @@
 <template>
 	<section id="about"
-		class="py-8 bg-gradient-to-b from-gray-50 to-indigo-50 px-8 md:px-20 dark:from-[#18181b] dark:to-[#18181b] dark:text-gray-300">
+		class="py-8 bg-gradient-to-b from-gray-50 to-indigo-50 px-8 md:px-20 dark:from-[#18181b] dark:to-[#18181b] dark:text-[#f8fafc]">
 		<h1 data-aos="fade-up" class="mb-8 text-3xl text-center text-indigo-700 font-bold dark:text-[#9ca3af]">About Me</h1>
 		<p data-aos="fade-up" class="md:text-center md:mx-auto">
 			Hi, My name is Muhammad Adam Firdaus, from Sumedang, West Java Province, Indonesia. <br>

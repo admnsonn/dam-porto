@@ -22,9 +22,9 @@
 				</div>
 			</div>
 			<div class="w-6/12 md:w-full text-right md:text-left">
-				<i class="fas fa-tag text-indigo-600 dark:text-indigo-500 mr-1 text-xs"></i>
+				<i class="fas fa-tag text-indigo-600 dark:text-[#38bdf8] mr-1 text-xs"></i>
 				<small v-for="tag in props.content.tags" :key="tag">
-					<a :href="'https://www.google.com/search?q=' + tag" class="inline-block mr-1 text-indigo-700 text-xs dark:text-indigo-400">{{ tag }}</a>
+					<a :href="'https://www.google.com/search?q=' + tag" class="inline-block mr-1 text-indigo-700 text-xs dark:text-[#38bdf8]">{{ tag }}</a>
 				</small>
 			</div>
 		</div>
