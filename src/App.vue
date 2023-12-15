@@ -7,7 +7,6 @@
 			<Uiux />
 			<Frontend />
 			<Contact />
-			<Footer	/>
 		</main>
 	</main>
 </template>
@@ -21,7 +20,6 @@ import Navbar from '@/components/Navbar.vue'
 import Uiux from '@/components/Uiux.vue'
 import Frontend from '@/components/Frontend.vue'
 import Contact from '@/components/Contact.vue'
-import Footer from '@/components/Footer.vue'
 
 const home = ref(null)
 

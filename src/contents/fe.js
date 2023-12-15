@@ -6,8 +6,7 @@ export default [
 			'web-app', 'reactjs', 'nodejs', 'bootstrap'
 		],
 		links: {
-			github: 'https://github.com/or-abdillh/car-information-app',
-			instagram: 'https://www.instagram.com/reel/CldlZGgMz5A/?utm_source=ig_web_copy_link'
+			github: 'https://github.com/Cafeasy/cafeasy-admin',
 		}
 	},
 ]

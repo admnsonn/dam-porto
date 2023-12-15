@@ -5,8 +5,8 @@
 			<div class="absolute rounded bg-slate-900 bg-opacity-25 opacity-0 backdrop-blur-sm hover:bg-opacity-75 hover:opacity-100 duration-300 inset-0 grid place-items-center">
 				<span class="text-xl flex flex-wrap justify-center">
 					<small class="text-slate-200 text-sm w-full text-center mb-1">See project on</small>
-					<a :href="props.content.links.figma" class="mr-2 text-slate-200">
-						<i class="fab fa-figma"></i>
+					<a :href="props.content.links.github" class="mr-2 text-slate-200">
+						<i class="fab fa-github"></i>
 					</a>
 				</span>
 			</div>
@@ -15,13 +15,13 @@
 		<div class="py-2 items-center gap-1 flex justify-between md:flex-wrap">
 			<div class="w-6/12 md:w-full">
 				<div class="flex items-center gap-1 mb-1">
-					<p class="font-medium text-sm text-gray-900 dark:text-gray-300">{{ props.content.title }}</p>
+					<p class="font-medium text-sm text-[#09090b] dark:text-[#f8fafc]">{{ props.content.title }}</p>
 				</div>
 			</div>
 			<div class="w-6/12 md:w-full text-right md:text-left">
-				<i class="fas fa-tag text-indigo-600 dark:text-[#38bdf8] mr-1 text-xs"></i>
+				<i class="fas fa-tag text-[#075985] dark:text-[#38bdf8] mr-1 text-xs"></i>
 				<small v-for="tag in props.content.tags" :key="tag">
-					<a :href="'https://www.google.com/search?q=' + tag" class="inline-block mr-1 text-indigo-700 text-xs dark:text-[#38bdf8]">{{ tag }}</a>
+					<a :href="'https://www.google.com/search?q=' + tag" class="inline-block mr-1 text-[#075985] text-xs dark:text-[#38bdf8]">{{ tag }}</a>
 				</small>
 			</div>
 		</div>

@@ -1,7 +1,7 @@
 <template>
 	<button 
 		@click="togglerHandler"
-		class="text-gray-100 dark:md:text-[#9ca3af] md:text-[#075985] font-medium text-left active:scale-[.85] duration-300 flex gap-2 items-center md:flex-row-reverse">
+		class="text-gray-100 dark:md:text-[#9ca3af] md:text-[#374151] font-medium text-left active:scale-[.85] duration-300 flex gap-2 items-center md:flex-row-reverse">
 		<i v-if="isDarkToggle" class="fas fa-sun"></i>
 		<i v-else class="fas fa-moon"></i>
 		{{ isDarkToggle ? 'Dark Mode' : 'Light Mode' }}

@@ -2,7 +2,7 @@
 	<main class="navbar dark:from-[#18181b] dark:to-[#18181b]">
 		<section class="navbar-brand">
 			<div class="flex items-center gap-3">
-				<h1 class="text-[#075985] dark:text-[#9ca3af] text-xl font-semibold lg:text-3xl">Damnnson</h1>
+				<h1 class="text-[#374151] dark:text-[#9ca3af] text-xl font-semibold lg:text-3xl">Damnnson</h1>
 			</div>
 			<button @click="showMenu = true" class="active:scale-90 duration-300 md:hidden" type="button">
 				<i class="fa fa-bars text-indigo-700 dark:text-indigo-500 text-2xl"></i>
@@ -14,7 +14,7 @@
 				<span @click="showMenu = false" class=" md:hidden"><i class="fa fa-times text-gray-50"></i></span>
 				<template v-for="(menu, x) in menus" :key="x">
 					<li
-						class="text-gray-100 md:text-[#075985] dark:md:text-[#9ca3af] font-medium duration-300 active:scale-[.85]">
+						class="text-gray-100 md:text-[#374151] dark:md:text-[#9ca3af] font-medium duration-300 active:scale-[.85]">
 						<a @click="changeMenu(menu)">{{ menu.name }}</a>
 					</li>
 				</template>
