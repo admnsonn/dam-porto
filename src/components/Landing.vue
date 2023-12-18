@@ -17,7 +17,6 @@
 				<a href="https://instagram.com/admnsonn/?utm_medium=copy_link" taget="_blank"><i class="fab fa-instagram text-[#374151] dark:text-[#9ca3af]"></i></a>
 				<a href="https://github.com/admnsonn" taget="_blank"><i class="fab fa-github text-[#374151] dark:text-[#9ca3af]"></i></a>
 				<a href="https://linkedin.com/in/damfirdaus/" taget="_blank"><i class="fab fa-linkedin text-[#374151] dark:text-[#9ca3af]"></i></a>
-				<a href="https://wa.me/6282128689209" taget="_blank"><i class="fab fa-whatsapp text-[#374151] dark:text-[#9ca3af]"></i></a>
 			</div>
 		</div>
 	</section>
