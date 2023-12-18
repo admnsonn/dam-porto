@@ -1,5 +1,10 @@
 export default [
 	{
+		job: 'Front-End Developer',
+        institusi: 'Village Service App Application',
+		year: 'Now'
+	},
+	{
 		job: 'UI/UX and Front-End',
         institusi: 'Cafeasy',
 		year: '2019 - 2023'
