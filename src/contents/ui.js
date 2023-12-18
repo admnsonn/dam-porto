@@ -20,7 +20,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://drive.google.com/uc?id=1G20biD0m96pBHL88_x6XdAenQBvRGk4-&export=download',
+		thumb: 'https://drive.google.com/uc?id=1oeataddsryMbGvmP09j3E-Tofj2FjRzB&export=download',
 		title: 'Self Safety Report',
 		tags: [
 			'app-design', 'figma', 'user-research', 'high-fidelity'
