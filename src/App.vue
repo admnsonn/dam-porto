@@ -6,6 +6,7 @@
 			<About />
 			<Uiux />
 			<Frontend />
+			<Graphic />
 			<Contact />
 		</main>
 	</main>
@@ -19,6 +20,7 @@ import About from '@/components/About.vue'
 import Navbar from '@/components/Navbar.vue'
 import Uiux from '@/components/Uiux.vue'
 import Frontend from '@/components/Frontend.vue'
+import Graphic from '@/components/Graphic.vue'
 import Contact from '@/components/Contact.vue'
 
 const home = ref(null)

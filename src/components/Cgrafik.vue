@@ -4,9 +4,9 @@
 			<img :alt="props.content.title" class="w-full border-1 border-gray-100 rounded-lg shadow mb-2" :src="props.content.thumb" />
 			<div class="absolute rounded bg-slate-900 bg-opacity-25 opacity-0 backdrop-blur-sm hover:bg-opacity-75 hover:opacity-100 duration-300 inset-0 grid place-items-center">
 				<span class="text-xl flex flex-wrap justify-center">
-					<small class="text-slate-200 text-sm w-full text-center mb-1">See image</small>
+					<small class="text-slate-200 text-sm w-full text-center mb-1">See project on</small>
 					<a :href="props.content.links.github" class="mr-2 text-slate-200">
-						<i class="fab fa-github"></i>
+						<i class="fab fa-google-drive"></i>
 					</a>
 				</span>
 			</div>
