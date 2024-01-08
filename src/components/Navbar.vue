@@ -1,5 +1,5 @@
 <template>
-	<main class="navbar dark:from-[#18181b] dark:to-[#18181b]">
+	<main class="navbar dark:from-[#18181b] dark:to-[#111827]">
 		<section class="navbar-brand">
 			<div class="flex items-center gap-3">
 				<h1 class="text-[#374151] dark:text-[#9ca3af] text-xl font-semibold lg:text-3xl">Damnnson</h1>
@@ -29,7 +29,7 @@
 
 <style scoped>
 .navbar {
-	@apply z-20 md:flex md:items-center md:justify-between md:px-6 md:py-8 lg:px-10 w-full bg-gradient-to-l from-indigo-100 to-gray-100 fixed top-0 left-0 right-0 px-5 lg:py-8 py-3;
+	@apply z-20 md:flex md:items-center md:justify-between md:px-6 md:py-8 lg:px-10 w-full bg-gradient-to-l from-gray-100 to-indigo-100 fixed top-0 left-0 right-0 px-5 lg:py-8 py-3;
 }
 
 .navbar-brand {

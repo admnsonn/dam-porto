@@ -1,16 +1,10 @@
 <template>
 	<section id="frontend"
-		class="py-8 bg-gradient-to-b from-indigo-50 to-gray-50 px-8 md:px-20 dark:from-[#18181b] dark:to-[#18181b]">
-		<h1 data-aos="fade-up" class="mb-8 text-3xl font-bold text-center text-[#374151] dark:text-[#9ca3af]">
-			Projects
-		</h1>
+		class="py-8 bg-gradient-to-b from-indigo-50 to-indigo-50 px-8 md:px-20 dark:from-[#111827] dark:to-[#111827]">
 		<h4 data-aos="fade-up" class="mb-8 text-2xl font-bold text-center text-[#075985] dark:text-[#38bdf8]">
 			Front-End
 		</h4>
-		<p data-aos="fade-up" class="md:text-center md:mx-auto dark:text-[#f8fafc] text-[#09090b]">
-			This section is the result of the works that I have made so far, Hope you enjoy:
-		</p>
-
+		
 		<section class="mt-4 md:flex-nowrap mx-auto md:flex gap-5 flex-wrap">
 			<template v-for="(fro, x) in currentPage" :key="x">
 				<Cfe :content="fro" />

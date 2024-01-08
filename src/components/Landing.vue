@@ -1,8 +1,8 @@
 <template>
-	<section id="home" class="w-full flex justify-between flex-wrap items-center pt-16 md:pt-24 px-8 md:px-24 py-6 lg:min-h-screen bg-gradient-to-l from-indigo-100 to-gray-100 dark:from-[#18181b] dark:to-[#18181b]">
+	<section id="home" class="w-full flex justify-between flex-wrap items-center pt-16 md:pt-24 px-8 md:px-24 py-6 lg:min-h-screen bg-gradient-to-l from-gray-100 to-indigo-100 dark:from-[#18181b] dark:to-[#111827]">
 		<div class="dark:text-[#f8fafc] text-[#09090b] animate__animated animate__zoomInDown  md:w-6/12 mb-16 md:mb-0">
 			<h1 class="text-4xl lg:text-6xl font-semibold mb-5">Hi,<br/> My Name is <br><span class="text-[#075985] dark:text-[#38bdf8]">M Adam Firdaus</span></h1>
-			<p class="text-base lg:text-lg mb-2"><strong>UI/UX Designer</strong> and <strong>Front-End Enthusiast</strong></p>
+			<p class="text-base lg:text-lg mb-2"><strong>UI/UX Designer</strong> | <strong>Front-End Enthusiast</strong> | <strong>Graphic Design</strong></p>
 			<p class="text-base lg:text-lg mb-5 lg:mb-10">The skills I have include <strong>Prototyping, Design System, <br> User Research, Vue JS, React.JS, HTML, </strong> and <strong>CSS</strong></p>
 			<a href="https://drive.google.com/file/d/1plyU16ahz4rCsQ2CwF7DleVyk33PusL6/view?usp=sharing" class="inline-block bg-gradient-to-r from-[#bae6fd] to-[#38bdf8] dark:from-[#0284c7] dark:to-[#0c4a6e] text-[#374151] dark:text-[#f8fafc] font-medium text-base px-5 py-3 rounded-lg font-semibold">
 				<i class="fa fa-download"></i>
