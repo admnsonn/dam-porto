@@ -1,6 +1,6 @@
 export default [
 	{
-		thumb: 'https://drive.google.com/uc?id=1a0DtQtPCLk6SLo23wbhFu5MF7V8UsrMl&export=download',
+		thumb: 'project/baznas-ui.png',
 		title: 'Baznas V1',
 		tags: [
 			'redesign-page', 'figma', 'user-research', 'prototype'
@@ -10,7 +10,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://drive.google.com/uc?id=1miD2my-tNUMdh3T-wJYucVJRL7-_L3TS&export=download',
+		thumb: 'project/cafeasy-ui.png',
 		title: 'Cafeasy',
 		tags: [
 			'web-design', 'figma', 'user-research', 'high-fidelity'
@@ -20,7 +20,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://drive.google.com/uc?id=1oeataddsryMbGvmP09j3E-Tofj2FjRzB&export=download',
+		thumb: 'project/self-ui.png',
 		title: 'Self Safety Report',
 		tags: [
 			'app-design', 'figma', 'user-research', 'high-fidelity'
@@ -30,7 +30,7 @@ export default [
 		}
 	},
        {
-		thumb: 'https://drive.google.com/uc?id=1uO5CV0YiesJxhJcDsjo5AfBfSKlDKt6m&export=download',
+		thumb: 'project/bahomoleo-ui.png',
 		title: 'Bahomoleo Village',
 		tags: [
 			'web-design', 'figma', 'user-research', 'high-fidelity'

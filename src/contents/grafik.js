@@ -1,6 +1,6 @@
 export default [
 	{
-		thumb: 'https://drive.google.com/uc?id=1Ngx-EpEnhroKmAh2zAcqE3maKksQy_l_&export=download',
+		thumb: 'project/keyfest.png',
 		title: 'Keyfest (Indonesia Millenial Connect Regional Bandung)',
 		tags: [
 			'photoshop', 'design', 'figma', '2D'
@@ -10,7 +10,7 @@ export default [
 		}
 	},
 	{
-		thumb: 'https://drive.google.com/uc?id=1pohZER7X8sujhkdBiybT8NsIXk9w2Vrx&export=download',
+		thumb: 'project/e-walelt.jpg',
 		title: 'E-Wallet User Research Challenge (Indosat Ooredoo)',
 		tags: [
 			'photoshop', 'design', 'figma', '2D', 'video-motion'

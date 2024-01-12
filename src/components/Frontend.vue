@@ -2,7 +2,7 @@
 	<section id="frontend"
 		class="py-8 bg-gradient-to-b from-indigo-50 to-indigo-50 px-8 md:px-20 dark:from-[#111827] dark:to-[#111827]">
 		<h4 data-aos="fade-up" class="mb-8 text-2xl font-bold text-center text-[#075985] dark:text-[#38bdf8]">
-			Front-End
+			Front-End Developer
 		</h4>
 		
 		<section class="mt-4 md:flex-nowrap mx-auto md:flex gap-5 flex-wrap">

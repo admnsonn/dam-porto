@@ -8,7 +8,7 @@
 			This section is the result of the works that I have made so far, Hope you enjoy:
 		</p>
 		<h4 data-aos="fade-up" class="mb-8 text-2xl font-bold text-center text-[#075985] dark:text-[#38bdf8]">
-			UI/UX
+			UI/UX Designer
 		</h4>
 
 
