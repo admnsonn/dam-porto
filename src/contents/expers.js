@@ -1,7 +1,7 @@
 export default [
 	{
 		job: 'Front-End Developer',
-        institusi: 'Village Service App Application',
+        institusi: 'Village Service App',
 		year: 'Now'
 	},
 	{
