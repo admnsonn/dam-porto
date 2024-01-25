@@ -1,12 +1,12 @@
 export default [
 	{
 		thumb: 'project/baznas-ui.png',
-		title: 'Baznas V1',
+		title: 'Baznas V2',
 		tags: [
 			'redesign-page', 'figma', 'user-research', 'prototype'
 		],
 		links: {
-			figma: 'https://www.figma.com/file/bSNKxYYiQqgM7en3epVMDK/Baznas-v2?type=design&node-id=2%3A4&mode=design&t=W3y8HnzTZn16VYRZ-1',
+			figma: 'https://www.figma.com/proto/bSNKxYYiQqgM7en3epVMDK/Baznas-v2?page-id=2%3A4&type=design&node-id=305-14199&viewport=1785%2C1267%2C0.08&t=XTOn42uAF7Wi65ju-1&scaling=scale-down&starting-point-node-id=305%3A14199&mode=design',
 		}
 	},
 	{
@@ -16,7 +16,17 @@ export default [
 			'web-design', 'figma', 'user-research', 'high-fidelity'
 		],
 		links: {
-			figma: 'https://www.figma.com/file/YpdEhU7lSIGtWoFiIsstNC/Prototype?type=design&node-id=0%3A1&mode=design&t=Ev2mmaEbtqU78eAT-1'
+			figma: 'https://www.figma.com/proto/YpdEhU7lSIGtWoFiIsstNC/Prototype?page-id=0%3A1&type=design&node-id=27-329&viewport=460%2C245%2C0.12&t=FR4m3DkueCbP2pGx-1&scaling=scale-down&starting-point-node-id=1%3A3&mode=design'
+		}
+	},
+	{
+		thumb: 'project/cafeasy-admin-ui.png',
+		title: 'Administration Management Cafeasy',
+		tags: [
+			'web-design', 'figma', 'user-research', 'high-fidelity'
+		],
+		links: {
+			figma: 'https://www.figma.com/proto/YpdEhU7lSIGtWoFiIsstNC/Prototype?page-id=1839%3A1818&type=design&node-id=1839-4274&viewport=-505%2C-123%2C0.22&t=cjEQbzssg4o3ruCf-1&scaling=scale-down&starting-point-node-id=1839%3A4274&mode=design'
 		}
 	},
 	{
@@ -26,7 +36,7 @@ export default [
 			'app-design', 'figma', 'user-research', 'high-fidelity'
 		],
 		links: {
-			figma: 'https://www.figma.com/file/lIugINiCQS1hdFMCWeNbZi/Project-Prototype?type=design&node-id=0%3A1&mode=design&t=qqNLmMqrCHkDdZva-1'
+			figma: 'https://www.figma.com/proto/lIugINiCQS1hdFMCWeNbZi/Project-Prototype?page-id=0%3A1&type=design&node-id=425-2746&viewport=99%2C350%2C0.13&t=A0f1ZVFeOLxLJqzX-1&scaling=scale-down&starting-point-node-id=425%3A2746&show-proto-sidebar=1&mode=design'
 		}
 	},
        {
@@ -36,7 +46,7 @@ export default [
 			'web-design', 'figma', 'user-research', 'high-fidelity'
 		],
 		links: {
-			figma: 'https://www.figma.com/file/ZZp1LlniKv4Emt1AIu3U0k/APLIKASI-SMART-DESA?type=design&node-id=0%3A1&mode=design&t=uKvnasZDvlL6LyTZ-1'
+			figma: '/'
 		}
 	},
 ]
