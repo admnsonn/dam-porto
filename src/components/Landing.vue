@@ -4,7 +4,7 @@
 			<h1 class="text-4xl lg:text-6xl font-semibold mb-5">Hi,<br/> My Name is <br><span class="text-[#075985] dark:text-[#38bdf8]">M Adam Firdaus</span></h1>
 			<p class="text-base lg:text-lg mb-2"><strong>UI/UX Designer</strong> | <strong>Front-End Enthusiast</strong> | <strong>Graphic Design</strong></p>
 			<p class="text-base lg:text-lg mb-5 lg:mb-10">The skills I have include <strong>Prototyping, Design System, <br> User Research, Vue JS, React.JS, HTML, </strong> and <strong>CSS</strong></p>
-			<a href="https://drive.google.com/file/d/1m2PE-nzFeDTSSEGEd3ME1gTp12TNyooT/view?usp=sharing" class="inline-block bg-gradient-to-r from-[#bae6fd] to-[#38bdf8] dark:from-[#0284c7] dark:to-[#0c4a6e] text-[#374151] dark:text-[#f8fafc] font-medium text-base px-5 py-3 rounded-lg font-semibold">
+			<a href="https://drive.google.com/file/d/1p66OK5SG8e_aaaZcBdeWO-B5fZmWEJp7/view?usp=sharing" class="inline-block bg-gradient-to-r from-[#bae6fd] to-[#38bdf8] dark:from-[#0284c7] dark:to-[#0c4a6e] text-[#374151] dark:text-[#f8fafc] font-medium text-base px-5 py-3 rounded-lg font-semibold">
 				<i class="fa fa-download"></i>
 				See My CV
 			</a>		
