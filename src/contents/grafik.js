@@ -11,7 +11,7 @@ export default [
 	},
 	{
 		thumb: 'project/e-walelt.jpg',
-		title: 'E-Wallet User Research Challenge (Indosat Ooredo)',
+		title: 'E-Wallet User Research Challenge (Indosat Ooredoo)',
 		tags: [
 			'photoshop', 'design', 'figma', '2D', 'video-motion'
 		],
