@@ -90,7 +90,7 @@ export function Hero() {
           <div className="flex gap-4 pt-4">
             <motion.a
               whileHover={{ scale: 1.1, rotate: 5 }}
-              href="https://github.com"
+              href="https://github.com/admnsonn"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 border border-border rounded-full hover:bg-secondary transition-all duration-300"
@@ -99,7 +99,7 @@ export function Hero() {
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.1, rotate: -5 }}
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/damfirdaus/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 border border-border rounded-full hover:bg-secondary transition-all duration-300"
@@ -108,7 +108,7 @@ export function Hero() {
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.1, rotate: 5 }}
-              href="mailto:hello@example.com"
+              href="mailto:muhamadadam.firdaus@gmail.com"
               className="p-3 border border-border rounded-full hover:bg-secondary transition-all duration-300"
             >
               <Mail className="w-5 h-5" />
