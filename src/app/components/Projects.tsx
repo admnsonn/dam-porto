@@ -70,11 +70,11 @@ const projects = [
   },
   {
     title: "Self Safety Report App",
-    description: "Intuitive banking experience with focus on accessibility",
+    description: "Aplikasi pelaporan kondisi darurat dan bencana untuk memantau keselamatan keluarga serta kerabat secara real-time.",
     image: selfsafetyui,
-    tags: ["React Native", "UI/UX", "Mobile"],
+    tags: ["React.Js", "UI/UX", "Mobile"],
     category: "UI/UX",
-    link: "https://www.figma.com/proto/lIugINiCQS1hdFMCWeNbZi/Project-Prototype?page-id=0%3A1&type=design&node-id=425-2746&viewport=99%2C350%2C0.13&t=A0f1ZVFeOLxLJqzX-1&scaling=scale-down&starting-point-node-id=425%3A2746&show-proto-sidebar=1",
+    link: "https://www.figma.com/design/7pV1LVuqO3IFoEVHJq4XMJ/Portofolio?node-id=2112-3&t=KiL7mS3GAQJBViUI-4",
     span: "lg:col-span-1 lg:row-span-1",
   },
   {
