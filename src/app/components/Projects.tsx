@@ -13,6 +13,16 @@ import otonometerfe from "../../foto/otono-fe.png";
 import webinarseries from "../../foto/keyfest.png";
 import ewallet from "../../foto/e-walelt.jpg";
 
+const sourceBadgeClass = (source: string) => {
+  const map: Record<string, string> = {
+    "Personal Project": "bg-emerald-500/90",
+    Freelance: "bg-indigo-500/90",
+    "Project Work": "bg-orange-500/90",
+  };
+
+  return map[source] ?? "bg-sky-500/90";
+};
+
 const projects = [
   {
     title: "Admin Cafeasy Dashboard",
@@ -20,6 +30,7 @@ const projects = [
     image: admincafefe,
     tags: ["React", "TypeScript", "Tailwind"],
     category: "Frontend",
+    source: "Project Work",
     link: "https://github.com/Cafeasy/cafeasy-admin",
     span: "lg:col-span-2 lg:row-span-2",
   },
@@ -29,6 +40,7 @@ const projects = [
     image: bahofe,
     tags: ["Next.js", "Chart.js", "API"],
     category: "Frontend",
+    source: "Freelance",
     link: "https://github.com/admnsonn/morowali-project",
     span: "lg:col-span-1 lg:row-span-1",
   },
@@ -38,16 +50,18 @@ const projects = [
     image: otonometerfe,
     tags: ["Next.js", "Chart.js", "API"],
     category: "Frontend",
+    source: "Project Work",
     link: "https://github.com/admnsonn/Otonometer",
     span: "lg:col-span-1 lg:row-span-1",
   },
   {
     title: "Baznas V2",
-    description: "Comprehensive component library for enterprise applications",
+    description: "Pengembangan Struktur User Interface dan User Experience pada Aplikasi Baznas V2",
     image: baznasui,
     tags: ["Figma", "Design System", "Component Library"],
     category: "UI/UX",
-    link: "https://www.figma.com/proto/bSNKxYYiQqgM7en3epVMDK/Baznas-v2?page-id=2%3A4&type=design&node-id=305-14199&viewport=1785%2C1267%2C0.08&t=XTOn42uAF7Wi65ju-1&scaling=scale-down&starting-point-node-id=305%3A14199",
+    source: "Project Work",
+    link: "https://www.figma.com/design/7pV1LVuqO3IFoEVHJq4XMJ/Portofolio?node-id=2137-39570&t=W0sbDC350ImGkZjW-4",
     span: "lg:col-span-1 lg:row-span-1",
   },
   {
@@ -56,6 +70,7 @@ const projects = [
     image: cafeasyui,
     tags: ["React Native", "UI/UX", "Mobile"],
     category: "UI/UX",
+    source: "Project Work",
     link: "https://www.figma.com/proto/YpdEhU7lSIGtWoFiIsstNC/Prototype?page-id=0%3A1&type=design&node-id=27-329&viewport=460%2C245%2C0.12&t=FR4m3DkueCbP2pGx-1&scaling=scale-down&starting-point-node-id=1%3A3",
     span: "lg:col-span-2 lg:row-span-1",
   },
@@ -65,6 +80,7 @@ const projects = [
     image: admincafeui,
     tags: ["Figma", "Design System", "Component Library"],
     category: "UI/UX",
+    source: "Project Work",
     link: "https://www.figma.com/proto/YpdEhU7lSIGtWoFiIsstNC/Prototype?page-id=1839%3A1818&type=design&node-id=1839-4274&viewport=-505%2C-123%2C0.22&t=cjEQbzssg4o3ruCf-1&scaling=scale-down&starting-point-node-id=1839%3A4274&mode=design",
     span: "lg:col-span-2 lg:row-span-2",
   },
@@ -74,8 +90,9 @@ const projects = [
     image: selfsafetyui,
     tags: ["React.Js", "UI/UX", "Mobile"],
     category: "UI/UX",
-    link: "https://www.figma.com/design/7pV1LVuqO3IFoEVHJq4XMJ/Portofolio?node-id=2112-3&t=KiL7mS3GAQJBViUI-4",
-    span: "lg:col-span-1 lg:row-span-1",
+    source: "Personal Project",
+    link: "https://www.figma.com/design/7pV1LVuqO3IFoEVHJq4XMJ/Portofolio?node-id=2112-2&t=W0sbDC350ImGkZjW-4",
+    span: "lg:col-span-1 lg:row-span-2",
   },
   {
     title: "Web Bahomoleo Village",
@@ -83,6 +100,7 @@ const projects = [
     image: bahomoleoui,
     tags: ["React Native", "UI/UX", "Mobile"],
     category: "UI/UX",
+    source: "Freelance",
     link: "https://example.com/bahomoleo-app",
     span: "lg:col-span-1 lg:row-span-1",
   },
@@ -92,6 +110,7 @@ const projects = [
     image: otonoui,
     tags: ["React Native", "UI/UX", "Mobile"],
     category: "UI/UX",
+    source: "Project Work",
     link: "https://www.figma.com/proto/cDE4MWpaZPFl8XNQaaejdV/OTONOMETER_NR_WEBSITE?page-id=0%3A1&node-id=326-8836&node-type=canvas&viewport=-30%2C304%2C0.03&t=4Uas6iVMJXEWvyDj-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=244%3A9552",
     span: "lg:col-span-2 lg:row-span-1",
   },
@@ -101,6 +120,7 @@ const projects = [
     image: webinarseries,
     tags: ["Illustrator", "Photoshop", "Branding"],
     category: "Graphic Design",
+    source: "Freelance",
     link: "https://drive.google.com/drive/folders/1IesFLaMVvwa0-W4fzFrxG8ywknqUzVqq",
     span: "lg:col-span-1 lg:row-span-1",
   },
@@ -110,6 +130,7 @@ const projects = [
     image: ewallet,
     tags: ["Illustrator", "Typography", "Motion Graphics"],
     category: "Graphic Design",
+    source: "Project Work",
     link: "https://drive.google.com/drive/folders/1fx9Bna1fkLPjp2v0bD5EUOtbYTgpeFyH",
     span: "lg:col-span-2 lg:row-span-2",
   },
@@ -199,7 +220,7 @@ export function Projects() {
                   </div>
 
                   <div className="relative h-full p-8 flex flex-col justify-end">
-                    <div className="flex gap-2 mb-3">
+                    <div className="flex flex-wrap gap-2 mb-3">
                       {project.tags.map((tag) => (
                         <span
                           key={tag}
@@ -209,6 +230,13 @@ export function Projects() {
                         </span>
                       ))}
                     </div>
+                    {project.source && (
+                      <div className="mb-4">
+                        <span className={`inline-flex items-center px-3 py-1 rounded-full text-white text-xs font-semibold shadow-sm ${sourceBadgeClass(project.source)}`}>
+                          {project.source}
+                        </span>
+                      </div>
+                    )}
 
                     <h4 className="text-2xl font-bold text-white mb-2">
                       {project.title}
