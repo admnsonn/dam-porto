@@ -61,7 +61,7 @@ const projects = [
     tags: ["Figma", "Design System", "Component Library"],
     category: "UI/UX",
     source: "Project Work",
-    link: "https://www.figma.com/design/7pV1LVuqO3IFoEVHJq4XMJ/Portofolio?node-id=2137-39570&t=W0sbDC350ImGkZjW-4",
+    link: "https://www.figma.com/proto/7pV1LVuqO3IFoEVHJq4XMJ/Portofolio?page-id=0%3A1&node-id=2137-42760&viewport=132%2C-64%2C0.59&t=1b8JfG4DlGXK58Id-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2137%3A42760&show-proto-sidebar=1",
     span: "lg:col-span-1 lg:row-span-1",
   },
   {
@@ -91,7 +91,7 @@ const projects = [
     tags: ["React.Js", "UI/UX", "Mobile"],
     category: "UI/UX",
     source: "Personal Project",
-    link: "https://www.figma.com/design/7pV1LVuqO3IFoEVHJq4XMJ/Portofolio?node-id=2112-2&t=W0sbDC350ImGkZjW-4",
+    link: "https://www.figma.com/proto/7pV1LVuqO3IFoEVHJq4XMJ/Portofolio?page-id=0%3A1&node-id=2125-4554&viewport=132%2C-64%2C0.59&t=1b8JfG4DlGXK58Id-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2125%3A4554&show-proto-sidebar=1",
     span: "lg:col-span-1 lg:row-span-2",
   },
   {
