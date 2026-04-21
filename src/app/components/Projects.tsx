@@ -81,7 +81,7 @@ const projects = [
     tags: ["Wireframe", "UI/UX", "Mobile"],
     category: "UI/UX",
     source: "Project Work",
-    link: "https://www.figma.com/proto/YpdEhU7lSIGtWoFiIsstNC/Prototype?page-id=0%3A1&type=design&node-id=27-329&viewport=460%2C245%2C0.12&t=FR4m3DkueCbP2pGx-1&scaling=scale-down&starting-point-node-id=1%3A3",
+    link: "https://www.figma.com/proto/7pV1LVuqO3IFoEVHJq4XMJ/Portofolio?page-id=0%3A1&node-id=2243-33115&viewport=5888%2C-8526%2C0.6&t=IJ8H52MtKdTzsJsE-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2215%3A30827&show-proto-sidebar=1",
     span: "lg:col-span-2 lg:row-span-2",
   },
   {
