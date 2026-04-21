@@ -26,7 +26,7 @@ const sourceBadgeClass = (source: string) => {
 const projects = [
   {
     title: "Admin Cafeasy Dashboard",
-    description: "Modern e-commerce platform with seamless checkout experience",
+    description: "",
     image: admincafefe,
     tags: ["React", "TypeScript", "Tailwind"],
     category: "Frontend",
@@ -36,7 +36,7 @@ const projects = [
   },
   {
     title: "Web Bahomoleo Village",
-    description: "Analytics dashboard with real-time data visualization",
+    description: "",
     image: bahofe,
     tags: ["Next.js", "Chart.js", "API"],
     category: "Frontend",
@@ -46,7 +46,7 @@ const projects = [
   },
   {
     title: "Otonometer",
-    description: "Analytics dashboard with real-time data visualization",
+    description: "",
     image: otonometerfe,
     tags: ["Next.js", "Chart.js", "API"],
     category: "Frontend",
@@ -56,7 +56,7 @@ const projects = [
   },
   {
     title: "Baznas V2",
-    description: "Pengembangan Struktur User Interface dan User Experience pada Aplikasi Baznas V2",
+    description: "UI/UX Design Framework Development for the Baznas V2 Application.",
     image: baznasui,
     tags: ["Figma", "Design System", "Component Library"],
     category: "UI/UX",
@@ -65,28 +65,28 @@ const projects = [
     span: "lg:col-span-1 lg:row-span-1",
   },
   {
-    title: "Cafeasy Mobile App",
-    description: "Intuitive banking experience with focus on accessibility",
-    image: cafeasyui,
-    tags: ["React Native", "UI/UX", "Mobile"],
-    category: "UI/UX",
-    source: "Project Work",
-    link: "https://www.figma.com/proto/YpdEhU7lSIGtWoFiIsstNC/Prototype?page-id=0%3A1&type=design&node-id=27-329&viewport=460%2C245%2C0.12&t=FR4m3DkueCbP2pGx-1&scaling=scale-down&starting-point-node-id=1%3A3",
-    span: "lg:col-span-2 lg:row-span-1",
-  },
-  {
     title: "Admin Cafeasy Dashboard",
-    description: "Comprehensive component library for enterprise applications",
+    description: "",
     image: admincafeui,
     tags: ["Figma", "Design System", "Component Library"],
     category: "UI/UX",
     source: "Project Work",
     link: "https://www.figma.com/proto/YpdEhU7lSIGtWoFiIsstNC/Prototype?page-id=1839%3A1818&type=design&node-id=1839-4274&viewport=-505%2C-123%2C0.22&t=cjEQbzssg4o3ruCf-1&scaling=scale-down&starting-point-node-id=1839%3A4274&mode=design",
+    span: "lg:col-span-2 lg:row-span-1",
+  },
+  {
+    title: "Cafeasy Mobile App",
+    description: "Cafeasy is a QR-based ordering app that simplifies the customer experience and automates restaurant bookkeeping through seamless Google Sheets integration.",
+    image: cafeasyui,
+    tags: ["Wireframe", "UI/UX", "Mobile"],
+    category: "UI/UX",
+    source: "Project Work",
+    link: "https://www.figma.com/proto/YpdEhU7lSIGtWoFiIsstNC/Prototype?page-id=0%3A1&type=design&node-id=27-329&viewport=460%2C245%2C0.12&t=FR4m3DkueCbP2pGx-1&scaling=scale-down&starting-point-node-id=1%3A3",
     span: "lg:col-span-2 lg:row-span-2",
   },
   {
     title: "Self Safety Report App",
-    description: "Aplikasi pelaporan kondisi darurat dan bencana untuk memantau keselamatan keluarga serta kerabat secara real-time.",
+    description: "A real-time emergency and disaster reporting app to ensure the safety of your family and loved ones.",
     image: selfsafetyui,
     tags: ["React.Js", "UI/UX", "Mobile"],
     category: "UI/UX",
@@ -96,7 +96,7 @@ const projects = [
   },
   {
     title: "Web Bahomoleo Village",
-    description: "Intuitive banking experience with focus on accessibility",
+    description: "",
     image: bahomoleoui,
     tags: ["React Native", "UI/UX", "Mobile"],
     category: "UI/UX",
@@ -106,7 +106,7 @@ const projects = [
   },
   {
     title: "Otonometer",
-    description: "Intuitive banking experience with focus on accessibility",
+    description: "",
     image: otonoui,
     tags: ["React Native", "UI/UX", "Mobile"],
     category: "UI/UX",
@@ -116,7 +116,7 @@ const projects = [
   },
   {
     title: "Keyfest (Indonesia Millenial Connect Regional Bandung)",
-    description: "Complete brand identity package for a tech startup",
+    description: "",
     image: webinarseries,
     tags: ["Illustrator", "Photoshop", "Branding"],
     category: "Graphic Design",
@@ -126,7 +126,7 @@ const projects = [
   },
   {
     title: "E-Wallet User Research Challenge (Indosat Ooredoo)",
-    description: "Creative poster designs for various campaigns",
+    description: "",
     image: ewallet,
     tags: ["Illustrator", "Typography", "Motion Graphics"],
     category: "Graphic Design",
