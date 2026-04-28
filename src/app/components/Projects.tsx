@@ -12,6 +12,7 @@ import bahofe from "../../foto/bahomoleo-fe.png";
 import otonometerfe from "../../foto/otono-fe.png";
 import webinarseries from "../../foto/keyfest.png";
 import ewallet from "../../foto/e-walelt.jpg";
+import rumahensik from "../../foto/rumah-ensik.png";
 
 const sourceBadgeClass = (source: string) => {
   const map: Record<string, string> = {
@@ -45,13 +46,13 @@ const projects = [
     span: "lg:col-span-1 lg:row-span-1",
   },
   {
-    title: "Otonometer",
-    description: "",
-    image: otonometerfe,
-    tags: ["Next.js", "Chart.js", "API"],
+    title: "Rumah Ensik",
+    description: "platform berbasis web yang dikembangkan menggunakan Vue.js untuk menyajikan informasi perfilman",
+    image: rumahensik,
+    tags: ["Vue.js", "Tailwind CSS", "Layout"],
     category: "Frontend",
-    source: "Project Work",
-    link: "https://github.com/admnsonn/Otonometer",
+    source: "Personal Project",
+    link: "https://github.com/admnsonn/rumah-ensik",
     span: "lg:col-span-1 lg:row-span-1",
   },
   {
@@ -104,16 +105,16 @@ const projects = [
     link: "https://example.com/bahomoleo-app",
     span: "lg:col-span-1 lg:row-span-1",
   },
-  {
-    title: "Otonometer",
-    description: "",
-    image: otonoui,
-    tags: ["React Native", "UI/UX", "Mobile"],
-    category: "UI/UX",
-    source: "Project Work",
-    link: "https://www.figma.com/proto/cDE4MWpaZPFl8XNQaaejdV/OTONOMETER_NR_WEBSITE?page-id=0%3A1&node-id=326-8836&node-type=canvas&viewport=-30%2C304%2C0.03&t=4Uas6iVMJXEWvyDj-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=244%3A9552",
-    span: "lg:col-span-2 lg:row-span-1",
-  },
+  // {
+  //   title: "Otonometer",
+  //   description: "",
+  //   image: otonoui,
+  //   tags: ["React Native", "UI/UX", "Mobile"],
+  //   category: "UI/UX",
+  //   source: "Project Work",
+  //   link: "https://www.figma.com/proto/cDE4MWpaZPFl8XNQaaejdV/OTONOMETER_NR_WEBSITE?page-id=0%3A1&node-id=326-8836&node-type=canvas&viewport=-30%2C304%2C0.03&t=4Uas6iVMJXEWvyDj-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=244%3A9552",
+  //   span: "lg:col-span-2 lg:row-span-1",
+  // },
   {
     title: "Keyfest (Indonesia Millenial Connect Regional Bandung)",
     description: "",
@@ -262,7 +263,7 @@ export function Projects() {
                           </>
                         )}
                       </motion.a>
-                      {project.category === "Frontend" && (
+                      {/* {project.category === "Frontend" && (
                         <motion.button
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
@@ -270,7 +271,7 @@ export function Projects() {
                         >
                           <Github className="w-4 h-4" />
                         </motion.button>
-                      )}
+                      )} */}
                     </div>
                   </div>
                 </motion.div>
