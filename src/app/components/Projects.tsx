@@ -201,7 +201,7 @@ export function Projects() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[280px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 auto-rows-fr">
               {category.projects.map((project, index) => (
                 <motion.div
                   key={project.title}
@@ -209,7 +209,7 @@ export function Projects() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className={`group relative overflow-hidden rounded-3xl bg-card border border-border ${project.span}`}
+                  className="group relative overflow-hidden rounded-3xl bg-card border border-border h-full"
                 >
                   <div className="absolute inset-0 overflow-hidden">
                     <img
@@ -220,8 +220,8 @@ export function Projects() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
                   </div>
 
-                  <div className="relative h-full p-8 flex flex-col justify-end">
-                    <div className="flex flex-wrap gap-2 mb-3">
+                  <div className="relative h-full p-8 flex flex-col justify-end items-center text-center">
+                    <div className="flex flex-wrap justify-center gap-2 mb-3">
                       {project.tags.map((tag) => (
                         <span
                           key={tag}
@@ -244,7 +244,7 @@ export function Projects() {
                     </h4>
                     <p className="text-white/80 mb-4">{project.description}</p>
 
-                    <div className="flex gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <motion.a
                         href={project.link}
                         target="_blank"
