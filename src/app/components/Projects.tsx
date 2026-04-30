@@ -47,7 +47,7 @@ const projects = [
   },
   {
     title: "Rumah Ensik",
-    description: "platform berbasis web yang dikembangkan menggunakan Vue.js untuk menyajikan informasi perfilman",
+    description: "Building a web-based platform for movie information using Vue.js is an excellent choice. Vue’s reactivity ensures that searching for titles or filtering genres feels instantaneous, providing a seamless user experience.",
     image: rumahensik,
     tags: ["Vue.js", "Tailwind CSS", "Layout"],
     category: "Frontend",
